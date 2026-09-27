@@ -1,0 +1,68 @@
+import { createClient, SupabaseClient } from '@supabase/supabase-js';
+
+// Safe environment variable retrieval across Vite and Node.js
+const getEnvVar = (key: string): string => {
+  try {
+    const metaEnv = (import.meta as unknown as { env?: Record<string, string> })?.env;
+    if (metaEnv && metaEnv[key]) {
+      return metaEnv[key];
+    }
+  } catch {}
+  try {
+    const proc = (globalThis as unknown as { process?: { env?: Record<string, string> } })?.process;
+    if (proc && proc.env && proc.env[key]) {
+      return proc.env[key] || '';
+    }
+  } catch {}
+  return '';
+};
+
+const supabaseUrl = getEnvVar('VITE_SUPABASE_URL') || getEnvVar('SUPABASE_URL') || 'https://dpzzmrrubromjkeoieoq.supabase.co';
+const supabaseAnonKey = getEnvVar('VITE_SUPABASE_ANON_KEY') || getEnvVar('SUPABASE_ANON_KEY') || 'sb_publishable_Mw2kPKoYL1gbXlyNjxdMhQ_ng_ANYFs';
+
+export const isSupabaseConfigured = Boolean(
+  supabaseUrl &&
+  supabaseAnonKey &&
+  supabaseUrl !== 'https://your-project.supabase.co' &&
+  !supabaseUrl.includes('placeholder')
+);
+
+// Live Supabase Client (if configured)
+export const supabase: SupabaseClient | null = isSupabaseConfigured
+  ? createClient(supabaseUrl, supabaseAnonKey)
+  : null;
+
+export interface TithiDateRecord {
+  id: string;
+  year: number;
+  date: string; // e.g. "14 October"
+  tithi_name: string; // "Ashwayuja Shukla Tritiya"
+  status: 'published' | 'draft' | 'unpublished';
+  notes?: string;
+  created_at: string;
+  updated_at: string;
+  published_at?: string | null;
+}
+
+export interface EmailLogRecord {
+  id: string;
+  year: number;
+  event_type: 'birthday_midnight' | 'birth_moment' | 'tithi' | 'advance' | 'test' | 'birthday';
+  mode?: 'real' | 'test' | 'advance';
+  scheduled_date: string;
+  recipient: string;
+  attempted_at?: string;
+  sent_at?: string;
+  status: 'SENT' | 'SIMULATED' | 'FAILED' | 'SKIPPED_DUPLICATE' | 'SCHEDULED' | 'PENDING';
+  provider_message_id?: string;
+  error_message?: string;
+  subject: string;
+  error?: string;
+  created_at?: string;
+}
+
+export interface AppSettingsRecord {
+  key: string;
+  value: Record<string, unknown>;
+  updated_at: string;
+}

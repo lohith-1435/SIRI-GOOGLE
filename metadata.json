@@ -1,0 +1,6 @@
+{
+  "name": "SIRI — Birthday Journey & Dual-Blessing System",
+  "description": "A dark luxury cinematic interactive journey celebrating the birth, divine blessings of Sharan Navaratri, and 101-year Tithi return of SIRI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

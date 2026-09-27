@@ -1,0 +1,910 @@
+[
+  {
+    "id": "act_1790475223312_9zn20e",
+    "timestamp": "27/9/2026, 7:43:43 am",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized on port 3000"
+  },
+  {
+    "id": "act_1790475201485_giqjm6",
+    "type": "ADMIN_ACTION",
+    "message": "Email configuration updated",
+    "timestamp": "27/9/2026, 7:43:21 am"
+  },
+  {
+    "id": "act_1790475192503_rsscq0",
+    "type": "ADMIN_ACTION",
+    "message": "SMTP configuration updated for user lohithmedisetti0305@gmail.com",
+    "timestamp": "27/9/2026, 7:43:12 am"
+  },
+  {
+    "id": "act_1790475185491_afvwid",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized on port 3000",
+    "timestamp": "27/9/2026, 7:43:05 am"
+  },
+  {
+    "id": "act_1790475079094_9nueye",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance-02_1790475078785_dksj",
+      "templateId": "advance-02"
+    },
+    "message": "Scheduled \"Advance 02 — Keep Smiling\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:41:19 am"
+  },
+  {
+    "id": "act_1790475078550_n8grfb",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance-01_1790475078290_sydg",
+      "templateId": "advance-01"
+    },
+    "message": "Scheduled \"Advance 01 — Something Beautiful is Near\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:41:18 am"
+  },
+  {
+    "id": "act_1790475077401_uw1guv",
+    "type": "ADMIN_ACTION",
+    "message": "Permanently cleared all scheduled email instances from production database",
+    "timestamp": "27/9/2026, 7:41:17 am"
+  },
+  {
+    "id": "act_1790474756987_yhwr4e",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance_02_1790474756659_wutk",
+      "templateId": "advance_02"
+    },
+    "message": "Scheduled \"Advance 01 — Something Beautiful is Near\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:35:56 am"
+  },
+  {
+    "id": "act_1790474756367_y8xpgz",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance_01_1790474755912_p50t",
+      "templateId": "advance_01"
+    },
+    "message": "Scheduled \"Advance 01 — Something Beautiful is Near\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:35:56 am"
+  },
+  {
+    "id": "act_1790474523564_0lygw4",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance_02_1790474523249_gavk",
+      "templateId": "advance_02"
+    },
+    "message": "Scheduled \"Advance 01 — Something Beautiful is Near\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:32:03 am"
+  },
+  {
+    "id": "act_1790474522665_jsznhr",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "08:00",
+      "profile": "S1",
+      "instanceId": "sched_advance_01_1790474522289_xegy",
+      "templateId": "advance_01"
+    },
+    "message": "Scheduled \"Advance 01 — Something Beautiful is Near\" for 2026-09-27 08:00 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:32:02 am"
+  },
+  {
+    "id": "act_1790474439523_3gvpsv",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (30s IST check interval active)",
+    "timestamp": "27/9/2026, 7:30:39 am"
+  },
+  {
+    "id": "act_1790473497359_toq54x",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (30s IST check interval active)",
+    "timestamp": "27/9/2026, 7:14:57 am"
+  },
+  {
+    "id": "act_1790473461766_3u9wft",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "subject": "Something beautiful is getting closer ✨",
+      "messageId": "<807edad6-f8f0-9ba5-d9ee-59b50c8c50f1@gmail.com>"
+    },
+    "message": "Email \"Advance 01 — Something Beautiful is Near\" sent to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:14:21 am"
+  },
+  {
+    "id": "act_1790473458438_yixn22",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "messageId": "sim_1790473457997_p9h1cp@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 01 — Something Beautiful is Near\" simulated dispatch to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:14:18 am"
+  },
+  {
+    "id": "act_1790473456926_epjooj",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (30s IST check interval active)",
+    "timestamp": "27/9/2026, 7:14:16 am"
+  },
+  {
+    "id": "act_1790473429447_bq0f8l",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "messageId": "sim_1790473429060_tc02zn@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 01 — Something Beautiful is Near\" simulated dispatch to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:13:49 am"
+  },
+  {
+    "id": "act_1790473428562_xl8t44",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (30s IST check interval active)",
+    "timestamp": "27/9/2026, 7:13:48 am"
+  },
+  {
+    "id": "act_1790472688101_x6oi9m",
+    "type": "ADMIN_ACTION",
+    "message": "Permanently cleared all scheduled email instances from production database",
+    "timestamp": "27/9/2026, 7:01:28 am"
+  },
+  {
+    "id": "act_1790472637475_yjolk5",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 af79cd13be357-93c44652fa3sm518468985a.4 - gsmtp"
+    },
+    "message": "Failed to send \"Advance 02 — Keep Smiling\" to S1 (lohithmedisetti1432004@gmail.com): Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 af79cd13be357-93c44652fa3sm518468985a.4 - gsmtp",
+    "timestamp": "27/9/2026, 7:00:37 am"
+  },
+  {
+    "id": "act_1790472623577_zpa8h1",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "07:30",
+      "profile": "S1",
+      "instanceId": "sched_advance-02_1790472622840_xesw",
+      "templateId": "advance-02"
+    },
+    "message": "Scheduled \"Advance 02 — Keep Smiling\" for 2026-09-27 07:30 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 7:00:23 am"
+  },
+  {
+    "id": "act_1790472425731_5zlrng",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-07_1790446321882_24kf",
+    "timestamp": "27/9/2026, 6:57:05 am"
+  },
+  {
+    "id": "act_1790471539771_6gaigy",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790471539373_x3nzn0@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 6:42:19 am"
+  },
+  {
+    "id": "act_1790452035845_vkl6wc",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790452035461_rdd7qc@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:17:15 am"
+  },
+  {
+    "id": "act_1790451950550_g2cv6a",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "messageId": "sim_1790451950290_4on9fd@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 01 — Something Beautiful is Near\" simulated dispatch to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:15:50 am"
+  },
+  {
+    "id": "act_1790451949695_so61ma",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (30s IST check interval active)",
+    "timestamp": "27/9/2026, 1:15:49 am"
+  },
+  {
+    "id": "act_1790451581004_lv8utq",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790451580796_cnise7@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:09:41 am"
+  },
+  {
+    "id": "act_1790451500180_q9ztkg",
+    "type": "ADMIN_ACTION",
+    "message": "Updated schedule for Advance 07 — You Deserve Beautiful Things: 2026-09-27 01:09 IST [S1]",
+    "timestamp": "27/9/2026, 1:08:20 am"
+  },
+  {
+    "id": "act_1790451401862_vm0cok",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "messageId": "sim_1790451401606_gzwrhh@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 01 — Something Beautiful is Near\" simulated dispatch to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:06:41 am"
+  },
+  {
+    "id": "act_1790451401636_97foko",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (standing by for scheduled dispatches)",
+    "timestamp": "27/9/2026, 1:06:41 am"
+  },
+  {
+    "id": "act_1790451320254_cl12ne",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790451320033_ez6zyd@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:05:20 am"
+  },
+  {
+    "id": "act_1790451307303_xilrhc",
+    "type": "ADMIN_ACTION",
+    "message": "Updated schedule for Advance 07 — You Deserve Beautiful Things: 2026-09-27 01:06 IST [S1]",
+    "timestamp": "27/9/2026, 1:05:07 am"
+  },
+  {
+    "id": "act_1790451255082_heif3u",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790451254843_qkj0fl@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:04:15 am"
+  },
+  {
+    "id": "act_1790451244875_bc6m1o",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790451244579_gl5mr4@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:04:04 am"
+  },
+  {
+    "id": "act_1790451091378_4e7khq",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790451091080_09qchq@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 1:01:31 am"
+  },
+  {
+    "id": "act_1790451076336_efnyez",
+    "type": "AUTO_RESUMED",
+    "message": "Automation master switch set to ON",
+    "timestamp": "27/9/2026, 1:01:16 am"
+  },
+  {
+    "id": "act_1790451066430_6wcxtr",
+    "type": "ADMIN_ACTION",
+    "message": "Updated schedule for Advance 07 — You Deserve Beautiful Things: 2026-09-27 01:02 IST [S1]",
+    "timestamp": "27/9/2026, 1:01:06 am"
+  },
+  {
+    "id": "act_1790451012150_dde9hg",
+    "type": "HEALTH_CHECK",
+    "message": "Full automation diagnostics run completed",
+    "timestamp": "27/9/2026, 1:00:12 am"
+  },
+  {
+    "id": "act_1790450978701_ljlpyz",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790450978352_1xvx7u@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 12:59:38 am"
+  },
+  {
+    "id": "act_1790450963207_x363sb",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "S1",
+      "messageId": "sim_1790450962752_a3e0gn@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Advance 07 — You Deserve Beautiful Things\" simulated dispatch to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 12:59:23 am"
+  },
+  {
+    "id": "act_1790450844267_wxbrac",
+    "type": "SEND_SUCCESS",
+    "details": {
+      "profile": "T1",
+      "messageId": "sim_1790450843991_0mqtmo@simulated.local",
+      "simulated": true
+    },
+    "message": "[SIMULATION] Email \"Test Single Run\" simulated dispatch to T1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "27/9/2026, 12:57:24 am"
+  },
+  {
+    "id": "act_1790450843519_7atq35",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (standing by for scheduled dispatches)",
+    "timestamp": "27/9/2026, 12:57:23 am"
+  },
+  {
+    "id": "act_1790450834576_z20gtq",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (standing by for scheduled dispatches)",
+    "timestamp": "27/9/2026, 12:57:14 am"
+  },
+  {
+    "id": "act_1790450826449_j9wksn",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized (standing by for scheduled dispatches)",
+    "timestamp": "27/9/2026, 12:57:06 am"
+  },
+  {
+    "id": "act_1790450174879_deap0r",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Gmail Daily Sending Limit Exceeded (550-5.4.5) for lohithmedisetti@gmail.com. Google limits free accounts per 24h. Please switch SMTP credentials in .env, enable IS_SIMULATED_MODE=true, or wait 24 hours.",
+      "isDailyLimit": true
+    },
+    "message": "Failed to send \"Advance 07 — You Deserve Beautiful Things\" to S1 (lohithmedisetti1432004@gmail.com): Gmail Daily Sending Limit Exceeded (550-5.4.5) for lohithmedisetti@gmail.com. Google limits free accounts per 24h. Please switch SMTP credentials in .env, enable IS_SIMULATED_MODE=true, or wait 24 hours.",
+    "timestamp": "27/9/2026, 12:46:14 am"
+  },
+  {
+    "id": "act_1790450167700_fgpejc",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-07_1790445987351_qk14",
+    "timestamp": "27/9/2026, 12:46:07 am"
+  },
+  {
+    "id": "act_1790448619177_n9kgy9",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Gmail Daily Sending Limit Exceeded (550-5.4.5) for lohithmedisetti@gmail.com. Google limits free accounts per 24h. Please switch SMTP credentials in .env, enable IS_SIMULATED_MODE=true, or wait 24 hours.",
+      "isDailyLimit": true
+    },
+    "message": "Failed to send \"Advance 07 — You Deserve Beautiful Things\" to S1 (lohithmedisetti1432004@gmail.com): Gmail Daily Sending Limit Exceeded (550-5.4.5) for lohithmedisetti@gmail.com. Google limits free accounts per 24h. Please switch SMTP credentials in .env, enable IS_SIMULATED_MODE=true, or wait 24 hours.",
+    "timestamp": "27/9/2026, 12:20:19 am"
+  },
+  {
+    "id": "act_1790448618765_rq5z3z",
+    "type": "AUTO_PAUSED",
+    "message": "⚠️ AUTOMATION AUTO-PAUSED: Google Gmail daily sending limit exceeded for lohithmedisetti@gmail.com. Automation master switch was automatically paused to prevent account penalties.",
+    "timestamp": "27/9/2026, 12:20:18 am"
+  },
+  {
+    "id": "act_1790448548287_v344n3",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized and running (10s IST interval)",
+    "timestamp": "27/9/2026, 12:19:08 am"
+  },
+  {
+    "id": "act_1790447837634_43pvvm",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 5a478bee46e88-342c9c245a7sm8707661eec.11 - gsmtp"
+    },
+    "message": "Failed to send \"Advance 07 — You Deserve Beautiful Things\" to S1 (lohithmedisetti1432004@gmail.com): Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 5a478bee46e88-342c9c245a7sm8707661eec.11 - gsmtp",
+    "timestamp": "27/9/2026, 12:07:17 am"
+  },
+  {
+    "id": "act_1790447827479_ljatal",
+    "type": "ADMIN_ACTION",
+    "message": "Updated schedule for Advance 07 — You Deserve Beautiful Things: 2026-09-27 00:10 IST [S3]",
+    "timestamp": "27/9/2026, 12:07:07 am"
+  },
+  {
+    "id": "act_1790446781435_noh52q",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 5a478bee46e88-3414407c548sm16029546eec.8 - gsmtp"
+    },
+    "message": "Failed to send \"Advance 07 — You Deserve Beautiful Things\" to S1 (lohithmedisetti1432004@gmail.com): Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 5a478bee46e88-3414407c548sm16029546eec.8 - gsmtp",
+    "timestamp": "26/9/2026, 11:49:41 pm"
+  },
+  {
+    "id": "act_1790446587435_t57bgu",
+    "type": "SEND_FAIL",
+    "details": {
+      "error": "Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 a92af1059eb24-147913a776fsm7356344c88.17 - gsmtp"
+    },
+    "message": "Failed to send \"Advance 07 — You Deserve Beautiful Things\" to S1 (lohithmedisetti1432004@gmail.com): Data command failed: 550-5.4.5 Daily user sending limit exceeded. For more information on Gmail\n550-5.4.5 sending limits go to\n550 5.4.5  https://support.google.com/a/answer/166852 a92af1059eb24-147913a776fsm7356344c88.17 - gsmtp",
+    "timestamp": "26/9/2026, 11:46:27 pm"
+  },
+  {
+    "id": "act_1790446520372_r76rcs",
+    "type": "ADMIN_ACTION",
+    "message": "Updated schedule for Advance 07 — You Deserve Beautiful Things: 2026-09-26 23:46 IST [S1]",
+    "timestamp": "26/9/2026, 11:45:20 pm"
+  },
+  {
+    "id": "act_1790446493892_aai45v",
+    "type": "AUTO_RESUMED",
+    "message": "Automation master switch set to ON",
+    "timestamp": "26/9/2026, 11:44:53 pm"
+  },
+  {
+    "id": "act_1790446322201_poo0w6",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-26",
+      "time": "23:43",
+      "profile": "S1",
+      "instanceId": "sched_advance-07_1790446321882_24kf",
+      "templateId": "advance-07"
+    },
+    "message": "Scheduled \"Advance 07 — You Deserve Beautiful Things\" for 2026-09-26 23:43 IST to S1 (lohithmedisetti1432004@gmail.com)",
+    "timestamp": "26/9/2026, 11:42:02 pm"
+  },
+  {
+    "id": "act_1790445987573_v89xaj",
+    "type": "ADMIN_ACTION",
+    "details": {
+      "date": "2026-09-27",
+      "time": "00:00",
+      "profile": "S3",
+      "instanceId": "sched_advance-07_1790445987351_qk14",
+      "templateId": "advance-07"
+    },
+    "message": "Scheduled \"Advance 07 — You Deserve Beautiful Things\" for 2026-09-27 00:00 IST to S3 (mendusiri28@gmail.com)",
+    "timestamp": "26/9/2026, 11:36:27 pm"
+  },
+  {
+    "id": "act_1790445494383_x5sks8",
+    "type": "SCHEDULER_CHECK",
+    "message": "Scheduler engine initialized and running (10s IST interval)",
+    "timestamp": "26/9/2026, 11:28:14 pm"
+  },
+  {
+    "id": "act_1790443304223_bdv8m7",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:51:44 pm"
+  },
+  {
+    "id": "act_1790443294362_u4ram4",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:51:34 pm"
+  },
+  {
+    "id": "act_1790442705272_8novma",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: email-b",
+    "timestamp": "26/9/2026, 10:41:45 pm"
+  },
+  {
+    "id": "act_1790442695837_0zq599",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-02",
+    "timestamp": "26/9/2026, 10:41:35 pm"
+  },
+  {
+    "id": "act_1790442691122_5hw35w",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:41:31 pm"
+  },
+  {
+    "id": "act_1790441744442_41lelg",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:25:44 pm"
+  },
+  {
+    "id": "act_1790441731383_1xmvxi",
+    "type": "AUTO_PAUSED",
+    "message": "Automation master switch set to OFF",
+    "timestamp": "26/9/2026, 10:25:31 pm"
+  },
+  {
+    "id": "act_1790441728901_xrzye3",
+    "type": "AUTO_RESUMED",
+    "message": "Automation master switch set to ON",
+    "timestamp": "26/9/2026, 10:25:28 pm"
+  },
+  {
+    "id": "act_1790441723545_ku7cy0",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:25:23 pm"
+  },
+  {
+    "id": "act_1790441709240_zwvshf",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:25:09 pm"
+  },
+  {
+    "id": "act_1790441680575_iuz49c",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:24:40 pm"
+  },
+  {
+    "id": "act_1790441659216_8b7xug",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-03",
+    "timestamp": "26/9/2026, 10:24:19 pm"
+  },
+  {
+    "id": "act_1790441656903_drrdlf",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-05",
+    "timestamp": "26/9/2026, 10:24:16 pm"
+  },
+  {
+    "id": "act_1790441655394_riqk17",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-07",
+    "timestamp": "26/9/2026, 10:24:15 pm"
+  },
+  {
+    "id": "act_1790441653944_llvl34",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-08",
+    "timestamp": "26/9/2026, 10:24:13 pm"
+  },
+  {
+    "id": "act_1790441652349_k737ik",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-09",
+    "timestamp": "26/9/2026, 10:24:12 pm"
+  },
+  {
+    "id": "act_1790441650520_qinvn3",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-10",
+    "timestamp": "26/9/2026, 10:24:10 pm"
+  },
+  {
+    "id": "act_1790441649226_guz1wn",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-11",
+    "timestamp": "26/9/2026, 10:24:09 pm"
+  },
+  {
+    "id": "act_1790441648137_1vzuj0",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: final-pre-birthday",
+    "timestamp": "26/9/2026, 10:24:08 pm"
+  },
+  {
+    "id": "act_1790441646411_dfzmh9",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: birthday-midnight",
+    "timestamp": "26/9/2026, 10:24:06 pm"
+  },
+  {
+    "id": "act_1790441645071_aiwao4",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: birth-moment",
+    "timestamp": "26/9/2026, 10:24:05 pm"
+  },
+  {
+    "id": "act_1790441643961_54ovna",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: yearly-tithi",
+    "timestamp": "26/9/2026, 10:24:03 pm"
+  },
+  {
+    "id": "act_1790441642363_azotow",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: system-test-email",
+    "timestamp": "26/9/2026, 10:24:02 pm"
+  },
+  {
+    "id": "act_1790441641305_pwqhfx",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: email-a",
+    "timestamp": "26/9/2026, 10:24:01 pm"
+  },
+  {
+    "id": "act_1790441639827_xh859b",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: email-b",
+    "timestamp": "26/9/2026, 10:23:59 pm"
+  },
+  {
+    "id": "act_1790441638819_gxp34j",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: email-c",
+    "timestamp": "26/9/2026, 10:23:58 pm"
+  },
+  {
+    "id": "act_1790441630021_adr90b",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-05",
+    "timestamp": "26/9/2026, 10:23:50 pm"
+  },
+  {
+    "id": "act_1790441628899_06lidi",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-04",
+    "timestamp": "26/9/2026, 10:23:48 pm"
+  },
+  {
+    "id": "act_1790441627277_6q5mat",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-03",
+    "timestamp": "26/9/2026, 10:23:47 pm"
+  },
+  {
+    "id": "act_1790441626474_640xii",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:23:46 pm"
+  },
+  {
+    "id": "act_1790441625158_ievmb1",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_birth-moment_1790421793422",
+    "timestamp": "26/9/2026, 10:23:45 pm"
+  },
+  {
+    "id": "act_1790441623619_rnokf5",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-08_1790421402542",
+    "timestamp": "26/9/2026, 10:23:43 pm"
+  },
+  {
+    "id": "act_1790441616512_tqdtgt",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-04",
+    "timestamp": "26/9/2026, 10:23:36 pm"
+  },
+  {
+    "id": "act_1790441616141_ls3q3c",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-03",
+    "timestamp": "26/9/2026, 10:23:36 pm"
+  },
+  {
+    "id": "act_1790441613963_949f8x",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: advance-01",
+    "timestamp": "26/9/2026, 10:23:33 pm"
+  },
+  {
+    "id": "act_1790441612814_23xqoo",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_yearly-tithi_1790421860921",
+    "timestamp": "26/9/2026, 10:23:32 pm"
+  },
+  {
+    "id": "act_1790441611621_m7qt91",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_yearly-tithi_1790421834212",
+    "timestamp": "26/9/2026, 10:23:31 pm"
+  },
+  {
+    "id": "act_1790441610917_0w7wq9",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_yearly-tithi_1790421834212",
+    "timestamp": "26/9/2026, 10:23:30 pm"
+  },
+  {
+    "id": "act_1790441608209_zm159y",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_final-pre-birthday_1790421686187",
+    "timestamp": "26/9/2026, 10:23:28 pm"
+  },
+  {
+    "id": "act_1790441606338_1da90f",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_final-pre-birthday_1790421686187",
+    "timestamp": "26/9/2026, 10:23:26 pm"
+  },
+  {
+    "id": "act_1790441605694_tgbniw",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_final-pre-birthday_1790421686187",
+    "timestamp": "26/9/2026, 10:23:25 pm"
+  },
+  {
+    "id": "act_1790441604138_btgrwu",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_final-pre-birthday_1790421669195",
+    "timestamp": "26/9/2026, 10:23:24 pm"
+  },
+  {
+    "id": "act_1790441603327_trykpu",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_birthday-midnight_1790421752472",
+    "timestamp": "26/9/2026, 10:23:23 pm"
+  },
+  {
+    "id": "act_1790441601795_lygjrk",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_birth-moment_1790421812131",
+    "timestamp": "26/9/2026, 10:23:21 pm"
+  },
+  {
+    "id": "act_1790441600528_799e3j",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_final-pre-birthday_1790421669195",
+    "timestamp": "26/9/2026, 10:23:20 pm"
+  },
+  {
+    "id": "act_1790441597714_o0i9k1",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-11_1790421621120",
+    "timestamp": "26/9/2026, 10:23:17 pm"
+  },
+  {
+    "id": "act_1790441596853_1blckz",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-10_1790421569537",
+    "timestamp": "26/9/2026, 10:23:16 pm"
+  },
+  {
+    "id": "act_1790441595783_shwqur",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-09_1790421470887",
+    "timestamp": "26/9/2026, 10:23:15 pm"
+  },
+  {
+    "id": "act_1790441589957_us2sg2",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-11_1790421632103",
+    "timestamp": "26/9/2026, 10:23:09 pm"
+  },
+  {
+    "id": "act_1790441588333_3laqym",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-10_1790421586546",
+    "timestamp": "26/9/2026, 10:23:08 pm"
+  },
+  {
+    "id": "act_1790441587080_gaj40m",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-09_1790421453594",
+    "timestamp": "26/9/2026, 10:23:07 pm"
+  },
+  {
+    "id": "act_1790441585303_dbppx6",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-08_1790421418435",
+    "timestamp": "26/9/2026, 10:23:05 pm"
+  },
+  {
+    "id": "act_1790441583981_fmqght",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-05_1790421264501",
+    "timestamp": "26/9/2026, 10:23:03 pm"
+  },
+  {
+    "id": "act_1790441582439_r0xda7",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-02_1790421226136",
+    "timestamp": "26/9/2026, 10:23:02 pm"
+  },
+  {
+    "id": "act_1790441579145_i1cy8m",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-07_1790421344586",
+    "timestamp": "26/9/2026, 10:22:59 pm"
+  },
+  {
+    "id": "act_1790441577222_mmrcz2",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-07_1790421330093",
+    "timestamp": "26/9/2026, 10:22:57 pm"
+  },
+  {
+    "id": "act_1790441576098_rla1t6",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-03_1790421309551",
+    "timestamp": "26/9/2026, 10:22:56 pm"
+  },
+  {
+    "id": "act_1790441575114_g08h76",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-03_1790421286005",
+    "timestamp": "26/9/2026, 10:22:55 pm"
+  },
+  {
+    "id": "act_1790441569842_72ykpt",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-05_1790421253067",
+    "timestamp": "26/9/2026, 10:22:49 pm"
+  },
+  {
+    "id": "act_1790441560493_8hz3di",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-02_1790421208509",
+    "timestamp": "26/9/2026, 10:22:40 pm"
+  },
+  {
+    "id": "act_1790441554655_4ssqpd",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-01_1790423466349_fs7k",
+    "timestamp": "26/9/2026, 10:22:34 pm"
+  },
+  {
+    "id": "act_1790441547881_u91jwo",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-02_1790423466364_d4j8",
+    "timestamp": "26/9/2026, 10:22:27 pm"
+  },
+  {
+    "id": "act_1790441542199_311to0",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: resched_system-test-email_1790423494215",
+    "timestamp": "26/9/2026, 10:22:22 pm"
+  },
+  {
+    "id": "act_1790441507224_3llhzc",
+    "type": "AUTO_PAUSED",
+    "message": "Automation master switch set to OFF",
+    "timestamp": "26/9/2026, 10:21:47 pm"
+  },
+  {
+    "id": "act_1790441489346_8pcnj2",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-01_1790426155201_lgho",
+    "timestamp": "26/9/2026, 10:21:29 pm"
+  },
+  {
+    "id": "act_1790441479500_mbfrbt",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: sched_advance-02_1790426155213_qjek",
+    "timestamp": "26/9/2026, 10:21:19 pm"
+  },
+  {
+    "id": "act_1790441461870_i1w23t",
+    "type": "ADMIN_ACTION",
+    "message": "Removed scheduled email: resched_system-test-email_1790426197718",
+    "timestamp": "26/9/2026, 10:21:01 pm"
+  }
+]

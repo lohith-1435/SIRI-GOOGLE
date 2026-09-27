@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian-950: #030304;
+  --color-obsidian-900: #070709;
+  --color-obsidian-800: #0D0D12;
+  --color-obsidian-700: #14141D;
+  --color-obsidian-600: #1C1C28;
+
+  --color-burgundy-950: #0D0205;
+  --color-burgundy-900: #16040A;
+  --color-burgundy-800: #230610;
+  --color-burgundy-700: #340A18;
+  --color-burgundy-600: #4A0E23;
+
+  --color-gold-50: #FCF9EE;
+  --color-gold-100: #F8F1D6;
+  --color-gold-200: #EFE1A7;
+  --color-gold-300: #E5CD74;
+  --color-gold-400: #DAB844;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B89225;
+  --color-gold-700: #947219;
+  --color-gold-800: #755717;
+  --color-gold-900: #604618;
+  --color-gold-champagne: #F3E5AB;
+  --color-gold-light: #FBF5DC;
+  --color-gold-antique: #C5A059;
+  --color-gold-bronze: #8C6D37;
+
+  --font-cinzel: "Cinzel", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-marcellus: "Marcellus", serif;
+
+  --background-image-gold-gradient: linear-gradient(135deg, #FFF6D5 0%, #D4AF37 50%, #8C6D37 100%);
+  --background-image-gold-shimmer: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  --background-image-burgundy-radial: radial-gradient(circle at center, #230610 0%, #070709 75%);
+  --background-image-celestial-radial: radial-gradient(ellipse at top, #0c1222 0%, #050508 70%);
+
+  --animate-shimmer: shimmer 3s infinite ease-in-out;
+  --animate-float-slow: floatSlow 7s infinite ease-in-out;
+  --animate-pulse-glow: pulseGlow 4s infinite ease-in-out;
+  --animate-spin-slow: spinSlow 60s linear infinite;
+  --animate-spin-reverse: spinReverse 45s linear infinite;
+}
+
+:root {
+  --gold-primary: #D4AF37;
+  --gold-light: #FBF5DC;
+  --gold-dark: #8C6D37;
+  --bg-dark: #050508;
+  --burgundy-deep: #16040A;
+}
+
+body {
+  background-color: #030305;
+  color: #FAF8F5;
+  font-family: 'Outfit', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050508;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #8C6D37, #D4AF37, #8C6D37);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5CD74;
+}
+
+/* Metallic gold text utility */
+.gold-text {
+  background: linear-gradient(135deg, #FFF8E7 0%, #F3E5AB 25%, #D4AF37 50%, #AA822A 75%, #FFF0C2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+.gold-text-subtle {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5ECC9 60%, #CBB06D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.4), 0 0 40px rgba(212, 175, 55, 0.2);
+}
+
+.gold-border {
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.05), 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.2), inset 0 0 20px rgba(212, 175, 55, 0.1);
+}
+
+.gold-card {
+  background: linear-gradient(145deg, rgba(20, 18, 25, 0.85) 0%, rgba(10, 8, 14, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.gold-card:hover {
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9), 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+.burgundy-card {
+  background: linear-gradient(145deg, rgba(35, 6, 16, 0.85) 0%, rgba(15, 3, 7, 0.95) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85), 0 0 30px rgba(74, 14, 35, 0.3);
+}
+
+/* Light Ray & Vignette Effects */
+.vignette-overlay {
+  background: radial-gradient(ellipse at center, transparent 35%, rgba(3, 3, 5, 0.85) 90%, rgba(3, 3, 5, 0.98) 100%);
+}
+
+.cinematic-glow {
+  position: absolute;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.03) 45%, transparent 70%);
+}
+
+/* Sacred Geometric Patterns */
+.mandala-spin {
+  animation: spinSlow 90s linear infinite;
+}
+
+.mandala-spin-reverse {
+  animation: spinReverse 75s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1.5deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.08); }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinReverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+/* Smooth fade and scale */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
